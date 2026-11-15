@@ -1,28 +1,28 @@
 class Mythoscode < Formula
   desc "MythosCode, a coding agent for the terminal"
   homepage "https://mythoscode.dev"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/juliochwd/mythoscode-releases/releases/download/v0.1.0/mythoscode-darwin-arm64"
-      sha256 "849732725cb22fbef338bd55688feae49df5d9553116aaae635f9fe416249195"
+      url "https://github.com/juliochwd/mythoscode-releases/releases/download/v0.1.1/mythoscode-darwin-arm64"
+      sha256 "e4a3f59bce3c57ef4d7e384e4a5bc1d33716741b3d4868d3eaaaad4e59b8238e"
     end
     on_intel do
-      url "https://github.com/juliochwd/mythoscode-releases/releases/download/v0.1.0/mythoscode-darwin-x64"
-      sha256 "ae9f276a418feba29f49388276c2dc278d192e7e8d8444608c09536a5d207537"
+      url "https://github.com/juliochwd/mythoscode-releases/releases/download/v0.1.1/mythoscode-darwin-x64"
+      sha256 "ae51ed3401248848f4ed44dab647a66d0c52f94da099e2be0e37f2f7cbe7d464"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/juliochwd/mythoscode-releases/releases/download/v0.1.0/mythoscode-linux-arm64"
-      sha256 "50a637988c41ebc1190808ba2153397838698d84a61fc416feaa80a1a55a8fb9"
+      url "https://github.com/juliochwd/mythoscode-releases/releases/download/v0.1.1/mythoscode-linux-arm64"
+      sha256 "f53d55b834203c2804547889bfb1f5f21481bef8d18c8e21d529835d820c679e"
     end
     on_intel do
-      url "https://github.com/juliochwd/mythoscode-releases/releases/download/v0.1.0/mythoscode-linux-x64"
-      sha256 "641115aa054e9929881e213448ccae9ec2197d3ccfb722dde47a8da48ba3275c"
+      url "https://github.com/juliochwd/mythoscode-releases/releases/download/v0.1.1/mythoscode-linux-x64"
+      sha256 "6d8cfb7257f3d3452cb608ad6c14e01ba23101dd4bd3254ef661c205d519b138"
     end
   end
 
